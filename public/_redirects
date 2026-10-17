@@ -1,3 +1,0 @@
-# Every path the site has no file for gets the page itself (like Vercel did): old links such as /classes
-# keep answering 200, and the page moves the reader to the right section.
-/*  /index.html  200

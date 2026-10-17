@@ -24,7 +24,7 @@ Deploy: Cloudflare Pages (see Hosting below).
 
 Lives in `E:\_Game\MendokaStudio\web\spire-horizon` (its own repo; the studio's other sites sit beside it).
 Connected to Cloudflare Pages: build command `npm run build`, output `dist`, `NODE_VERSION=22`, domain `sh.mendoka.com`.
-`public/_headers` sets the security headers and long caching of `assets/`. One page: `public/_redirects` serves `index.html` (200) for every path without a file
+`public/_headers` sets the security headers and long caching of `assets/`. One page: unknown paths are a 404
 The GitHub Pages workflow is gone (2026-10-18); `vercel.json` is gone too.
 
 
