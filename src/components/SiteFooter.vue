@@ -16,7 +16,6 @@ const year = new Date().getFullYear();
           <a :href="links.privacy" target="_blank" rel="noopener" class="hover:text-white">Privacy Policy</a>
           <a :href="links.terms" target="_blank" rel="noopener" class="hover:text-white">Terms of Service</a>
           <a :href="links.eula" target="_blank" rel="noopener" class="hover:text-white">EULA</a>
-          <a :href="links.kofi" target="_blank" rel="noopener" class="hover:text-white">Support on Ko-fi</a>
         </p>
       </div>
     </div>

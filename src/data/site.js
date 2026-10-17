@@ -4,7 +4,6 @@ export const links = {
   steam: "https://store.steampowered.com/app/2321880/Spire_Horizon/",
   online: "https://sho.mendoka.com/",
   studio: "https://www.mendoka.com/",
-  kofi: "https://ko-fi.com/mendoka/tiers",
   privacy: "https://www.mendoka.com/privacy-policy",
   terms: "https://www.mendoka.com/terms-of-service",
   eula: "https://www.mendoka.com/spire-horizon-eula",
