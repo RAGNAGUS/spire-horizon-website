@@ -18,13 +18,13 @@ npm run build    # dist/ (also writes dist/404.html so any path falls back to th
 Gameplay clips in `public/media/clips/` were cut from `Documents/Video` and re-encoded small (720p, no sound).
 They only play while on screen.
 
-Deploy: works on Vercel as-is (`vercel.json`), or GitHub Pages (upload `dist/`).
+Deploy: Cloudflare Pages (see Hosting below).
 
 ## Hosting: Cloudflare Pages
 
 Lives in `E:\_Game\MendokaStudio\web\spire-horizon` (its own repo; the studio's other sites sit beside it).
 Connected to Cloudflare Pages: build command `npm run build`, output `dist`, `NODE_VERSION=22`, domain `sh.mendoka.com`.
-`public/_headers` sets the security headers and long caching of `assets/`. One page, so every path serves `index.html`
-(Pages does that by itself when there is no 404 page). The GitHub Pages workflow is gone (2026-10-18); `vercel.json`
-goes once the domain has moved off Vercel.
+`public/_headers` sets the security headers and long caching of `assets/`. One page: `public/_redirects` serves `index.html` (200) for every path without a file
+The GitHub Pages workflow is gone (2026-10-18); `vercel.json` is gone too.
+
 
