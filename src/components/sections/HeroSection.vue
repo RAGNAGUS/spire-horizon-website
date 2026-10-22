@@ -36,7 +36,10 @@ const flies = [
 
     <div class="wrap flex justify-end">
       <div class="max-w-xl text-center sm:text-left">
-        <img src="/media/brand/logo.png" alt="Spire Horizon" class="mx-auto w-full max-w-[24rem] drop-shadow-[0_6px_18px_rgba(0,0,0,0.45)] sm:mx-0" />
+        <h1>
+          <span class="sr-only">Spire Horizon</span>
+          <img src="/media/brand/logo.png" alt="" class="mx-auto w-full max-w-[24rem] drop-shadow-[0_6px_18px_rgba(0,0,0,0.45)] sm:mx-0" />
+        </h1>
         <p class="mt-6 font-display text-2xl drop-shadow-md sm:text-3xl">A cozy open-world adventure.</p>
         <p class="mt-3 text-lg leading-8 text-white/90 drop-shadow">
           Wake up as a skeleton in the world of Aetheria. Relax, explore, fight, farm and climb the Spire Horizon tower —
