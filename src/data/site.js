@@ -12,9 +12,13 @@ export const links = {
 
 export const socials = [
   { name: "Discord", url: "https://discord.gg/AmFFEHyHWq", icon: "discord" },
-  { name: "YouTube", url: "https://www.youtube.com/@mendokasan", icon: "youtube" },
-  { name: "X", url: "https://x.com/mendokasan", icon: "x" },
-  { name: "Facebook", url: "https://www.facebook.com/people/Mendoka/100088861612335/", icon: "facebook" },
+  { name: "Instagram", url: "https://www.instagram.com/mendokagames/", icon: "instagram" },
+  { name: "Threads", url: "https://www.threads.com/@mendokagames", icon: "threads" },
+  { name: "TikTok", url: "https://www.tiktok.com/@mendokagames", icon: "tiktok" },
+  { name: "X", url: "https://x.com/mendokagames", icon: "x" },
+  { name: "Reddit", url: "https://www.reddit.com/user/mendokagames/", icon: "reddit" },
+  { name: "YouTube", url: "https://www.youtube.com/@mendokagames", icon: "youtube" },
+  { name: "Facebook", url: "https://www.facebook.com/mendokagames/", icon: "facebook" },
 ];
 
 export const trailer = { id: "LxkN3GAXh7I", title: "Spire Horizon — Official Trailer" };
